@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<script type="text/javascript">
+
+function showMessage(id){
+
+if(id == 1){
+    alert("mensagem 1");
+}else if(id == 2){
+    alert("mensagem 2");
+}if(id == 3){
+    alert("mensagem 3");
+}if(id == 4){
+    alert("mensagem 4");
+}
+
+}
+</script>
+<body>
+    
+    <div class="container">
+
+        <div class="message_area">
+            <div class="gift-item">
+                <img src="/img/giftbox.png" alt="gift" width="80px" onclick="showMessage(1)">
+            </div>
+            <div class="gift-item">
+                <img src="/img/giftbox.png" alt="gift" width="80px"  onclick="showMessage(2)">
+            </div>
+            <div class="gift-item">
+                <img src="/img/giftbox.png" alt="gift" width="80px"  onclick="showMessage(3)">
+            </div>
+            <div class="gift-item">
+                <img src="/img/giftbox.png" alt="gift" width="80px"  onclick="showMessage(4)">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    background-color: pink;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.message_area {
+    margin-top: 120px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
